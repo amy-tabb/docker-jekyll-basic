@@ -23,8 +23,6 @@ ENV HOME "/home/jekylluser"
 ENV GEM_HOME "$HOME/gems"
 ENV PATH "$HOME/gems/bin:$PATH"
 
-USER jekylluser
-
 RUN gem install github-pages
 
 RUN gem install bundler
